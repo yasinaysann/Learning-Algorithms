@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.SearchAlgorithms;
 
 /**
  * <h1>Jump Search<h1/>
