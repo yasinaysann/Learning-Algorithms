@@ -1,4 +1,6 @@
-package DataStructures.ArraysLogic;
+package DataStructures.ArraysAndList.Example;
+
+import DataStructures.ArraysAndList.Example.GameEntry;
 
 import java.util.Arrays;
 //  Class for storing high scores in an array in nondecreasing order

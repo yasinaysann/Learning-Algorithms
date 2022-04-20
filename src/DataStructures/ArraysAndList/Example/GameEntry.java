@@ -1,4 +1,4 @@
-package DataStructures.ArraysLogic;
+package DataStructures.ArraysAndList.Example;
 
 public class GameEntry {
     private String name; // name of the person earning this score

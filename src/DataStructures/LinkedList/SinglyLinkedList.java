@@ -1,5 +1,7 @@
 package DataStructures.LinkedList;
 
+import java.util.List;
+
 public class SinglyLinkedList<E> {
     // nested Node class
     private static class Node<E>{

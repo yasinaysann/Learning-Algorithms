@@ -1,7 +1,8 @@
 package DataStructures;
 
-import DataStructures.ArraysLogic.GameEntry;
-import DataStructures.ArraysLogic.ScoreBoard;
+import DataStructures.ArraysAndList.Arrays.ArrayList;
+import DataStructures.ArraysAndList.Example.GameEntry;
+import DataStructures.ArraysAndList.Example.ScoreBoard;
 import DataStructures.LinkedList.CircularlyLinkedList;
 import DataStructures.LinkedList.DoublyLinkedList;
 import DataStructures.LinkedList.SinglyLinkedList;
@@ -52,6 +53,18 @@ public class MainDataStructures {
         System.out.println("--------------------------------------");
 
 
+        // package DataStructures.ArraysAndList.Arrays;
+        // use of arrays
+        ArrayList<String> stringArrayList = new ArrayList<>();
+        stringArrayList.add(0,"A");
+        stringArrayList.add(1,"b");
+
+        ArrayList<Integer> integerArrayList = new ArrayList<>(4);
+        integerArrayList.add(0,1);
+        integerArrayList.add(1,2);
+        integerArrayList.add(2,3);
+        integerArrayList.add(3,4);
+        System.out.println(integerArrayList.get(0));
 
     }
 }
